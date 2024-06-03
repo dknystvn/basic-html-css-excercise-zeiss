@@ -1,0 +1,72 @@
+Create a ZEISS homepage with the knowledge you gained in the training pathway.
+
+Step 1: 
+Initialize Your Project: Inside the new folder, create the following files and folders:
+index.html
+board.html
+styles.css
+assets/ (for images)
+Step 2: Basic HTML Setup:
+
+Open index.html.
+Add the basic HTML structure: <!DOCTYPE html>, <html>, <head>, and <body> tags.
+In the <head> section, include meta tags for character set and viewport settings, and link to styles.css.
+Header, Main, and Footer. The background color of the page should be #F5F8FA. The font should be "'Tahoma',sans-serif;"
+
+The board.html should be the same.
+
+Step 3: Header component.
+The header component should be present on both pages.
+The header componentshould have The ZEISS logo on the left side, 
+with at least 20 px horizontal and 5px vertical space from the edges of the component.
+When clicking on the link, the user should be directed to the ZEISS homepage.
+
+On the right side of the header, a link should be present, which should direct to the other page of the website.
+The text of the link should be Board for the index page and Home for the board page.
+The background of the header should be white.
+
+Step 4: Footer component
+The footer component should be present on both pages.
+The footer should always be at the bottom of the page.
+It should have white text and black background color.
+It should have the following links:
+	- Contact
+	- Publisher
+	- Legal Notice
+	- Privacy Notice
+	- Cookie Notice
+The links should be equal distance from each other and the left and right end of the page.
+Bonus: Look up and add the same URLs to the links as they could be found in the ZEISS Homepage.
+
+Step 5: Hero Section
+The index.html page should contain a hero section right below the header.
+this section should show a sitewide image. The image should stretch with the window width.
+The correct image can be found in the repo of the excercise project, in the assets folder. 
+Bonus: The actually displayed image should change with the width of the window. This can be solved with mediaqueries.
+
+Step 6: Articles
+Under the hero section, the index page should have 3 articles. The articles should have a title and some additional text displayed.
+Each article should have its own card component.
+The cards should be separate from each other. 
+The cards should have grey background color.
+The card sizes should change when the window size changes, so they try to fit the window. 
+(It is recommended to try the grid layout)
+Bonus: When the user hovers over the card with the cursor, it should have a shadow. 
+
+Step 7: Table of board members.
+
+The board.html should have a table, containing the list of ZEISS board members. 
+They should have their name, role and short description present.
+The table should have the title "Board Members" as header and it should be centered.
+The background of the table should be white.
+The table should have 200px margin horizontally
+
+Step 8: Apply to the board form.
+The board.html should have a form with the header "Apply to the ZEISS Board:"
+It should ask for a name, an e-mail address, phone number, desired role.
+It should also have a textarea to describe the experiences of the candidate.
+The form should be centered and should not be wider than 800px.
+
+The Apply button should have blue background and white text color.
+bonus: Make the button a darker blue if hovered over.
+bonus: Add a file selector where the user can upload their CV to the application.
