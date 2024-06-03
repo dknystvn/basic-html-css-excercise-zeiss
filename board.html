@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTML - CSS - Exercise</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <a href="https://www.zeiss.com">
+        <img id="header-image" src="assets/favicon.ico" alt="abc"/>
+    </a>
+    <nav class="list">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+        </ul>
+    </nav>
+</header>
+<section class="board-section">
+    <h1 id="board-title">Zeiss Board of Directors</h1>
+    <table>
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Position</th>
+            <th>Profile</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Dr. Karl Lamprecht</td>
+            <td>President and CEO</td>
+            <td>Dr. Karl Lamprecht has been the President and CEO of Zeiss since 2020. He has a PhD in Physics and
+                extensive experience in the optics industry.
+            </td>
+        </tr>
+        <tr>
+            <td>Dr. Matthias Metz</td>
+            <td>Member of the Executive Board</td>
+            <td>Dr. Matthias Metz oversees the Consumer Markets segment. He holds a PhD in Mechanical Engineering and
+                has been with Zeiss since 2015.
+            </td>
+        </tr>
+        <tr>
+            <td>Dr. Ludwin Monz</td>
+            <td>Member of the Executive Board</td>
+            <td>Dr. Ludwin Monz is responsible for the Semiconductor Manufacturing Technology segment. He has a
+                background in electrical engineering and has been part of Zeiss since 2007.
+            </td>
+        </tr>
+        <tr>
+            <td>Dr. Jochen Peter</td>
+            <td>Member of the Executive Board</td>
+            <td>Dr. Jochen Peter leads the Research & Quality Technology segment. He has a PhD in Chemistry and joined
+                Zeiss in 2013.
+            </td>
+        </tr>
+        <tr>
+            <td>Dr. Michael Kaschke</td>
+            <td>Chairman of the Supervisory Board</td>
+            <td>Dr. Michael Kaschke served as CEO of Zeiss from 2011 to 2020 and is now the Chairman of the Supervisory
+                Board. He holds a PhD in Physics.
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</section>
+
+
+<section class="board-section">
+    <h2 id="apply-title">Apply for Board of Directors</h2>
+    <form action="/submit_application" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="position">Position Applying For:</label>
+        <input type="text" id="position" name="position" required>
+
+        <label for="experience">Experience:</label>
+        <textarea id="experience" name="experience" rows="4" required></textarea>
+
+        <label for="resume">Upload Resume:</label>
+        <input type="file" id="resume" name="resume" accept=".pdf, .doc, .docx" required>
+
+        <input type="submit" value="Apply">
+    </form>
+</section>
+
+</body>
+</html>
