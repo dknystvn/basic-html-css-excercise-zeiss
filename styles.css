@@ -141,3 +141,9 @@ input[type="submit"]:hover {
     flex-direction: column;
     margin: 0 100px;
 }
+
+.apply-section {
+    flex-direction: column;
+    max-width: 800px;
+    align-self: center;
+}
