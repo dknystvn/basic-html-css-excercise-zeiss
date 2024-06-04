@@ -1,6 +1,6 @@
 Create a ZEISS homepage with the knowledge you gained in the training pathway.
 
-Step 1: 
+Step 1:
 Initialize Your Project: Inside the new folder, create the following files and folders:
 index.html
 board.html
@@ -17,7 +17,7 @@ The board.html should be the same.
 
 Step 3: Header component.
 The header component should be present on both pages.
-The header componentshould have The ZEISS logo on the left side, 
+The header component should have The ZEISS logo on the left side,
 with at least 20 px horizontal and 5px vertical space from the edges of the component.
 When clicking on the link, the user should be directed to the ZEISS homepage.
 
@@ -41,21 +41,21 @@ Bonus: Look up and add the same URLs to the links as they could be found in the 
 Step 5: Hero Section
 The index.html page should contain a hero section right below the header.
 this section should show a sitewide image. The image should stretch with the window width.
-The correct image can be found in the repo of the excercise project, in the assets folder. 
+The correct image can be found in the repo of the excercise project, in the assets folder.
 Bonus: The actually displayed image should change with the width of the window. This can be solved with mediaqueries.
 
 Step 6: Articles
 Under the hero section, the index page should have 3 articles. The articles should have a title and some additional text displayed.
 Each article should have its own card component.
-The cards should be separate from each other. 
+The cards should be separate from each other.
 The cards should have grey background color.
-The card sizes should change when the window size changes, so they try to fit the window. 
+The card sizes should change when the window size changes, so they try to fit the window.
 (It is recommended to try the grid layout)
-Bonus: When the user hovers over the card with the cursor, it should have a shadow. 
+Bonus: When the user hovers over the card with the cursor, it should have a shadow.
 
 Step 7: Table of board members.
 
-The board.html should have a table, containing the list of ZEISS board members. 
+The board.html should have a table, containing the list of ZEISS board members.
 They should have their name, role and short description present.
 The table should have the title "Board Members" as header and it should be centered.
 The background of the table should be white.
